@@ -13,11 +13,13 @@
 
 #### INSTALL TOOL ON TERMUX: ⬇️
 ```
+termux-setup-storage
 apt update && apt upgrade -y
 pkg install python
 pip install requests
 pkg install python2
 pip install mechanize
+pkg install git 
 pip install bs4
 git clone https://github.com/ACS-TEAM/SMS-BOOMBER
 cd SMS-BOOMBER
